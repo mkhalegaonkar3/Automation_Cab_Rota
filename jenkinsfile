@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git 'https://github.com/mkhalegaonkar3/product-service-go.git'
+                git 'https://github.com/mkhalegaonkar3/Automation_Cab_Rota.git'
             }
         }
         stage ('build') {
